@@ -1,0 +1,91 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-size: 16px;
+	font-weight: 400;
+	background-color: white;
+	color: #384179;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	color: #061257;
+	font-weight: 700;
+}
+a {
+	color: white;
+	text-decoration: none;
+}
+img {
+	max-width: 100%;
+	height: auto;
+}
+.menuItem a {
+	color: #384179;
+	font-size: 16px;
+}
+.menuItem a:hover {
+	color: blue;
+}
+.heroSection {
+	position: relative;
+	padding: 100px 48px 120px;
+	font-size: 18px;
+}
+.heroSection div {
+	z-index: 10;
+}
+.tabsContent,
+.appScreens,
+.cardlayout {
+	padding: 80px 48px;
+}
+.tabsContent div.col {
+	box-shadow: 0px 0px 10px 0px #737373;
+}
+.appScreens {
+	background-color: #080d27;
+}
+#pricingTable {
+	padding: 100px 48px;
+}
+.tableContent {
+	padding: 40px;
+	border: 2px solid #f9f3ef;
+	border-radius: 20px;
+}
+.appScreens img {
+	margin: auto;
+}
+.appScreens h2 {
+	color: white;
+}
+.appScreens h6 {
+	color: rgb(10, 101, 252);
+}
+.tableContent:hover {
+	border: 2px solid rgb(10, 101, 252);
+}
+.tableContent:hover button {
+	background-color: rgb(10, 101, 252) !important;
+	color: white !important;
+}
+.tableContent ul {
+	list-style: none;
+}
+.tableContent ul li {
+	padding: 5px 0 5px 0;
+}
+.tableContent ul li svg {
+	margin-right: 10px;
+}
+@media screen and (max-width: 767px) {
+	.heroSection {
+		padding-top: 30px;
+	}
+}
